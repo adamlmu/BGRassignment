@@ -7,8 +7,7 @@ from deap import base, creator, tools, algorithms
 from scipy.interpolate import make_interp_spline, splprep, splev
 
 # Step 1: Load and preprocess the cone data
-# Replace 'BrandsHatchLayout.csv' with the path to your CSV file
-df = pd.read_csv('BrandsHatchLayout.csv')
+df = pd.read_csv('BrandsHatchLayout.csv') # Replace 'BrandsHatchLayout.csv' with the path to your CSV file
 x_coords = df.iloc[:, 0].to_numpy()
 y_coords = df.iloc[:, 1].to_numpy()
 
