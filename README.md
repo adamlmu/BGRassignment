@@ -31,10 +31,9 @@ This project presents an approach to optimize a smooth path within a race track 
 ## **Usage**
 1. Open a terminal or command prompt in the script's directory.
 2. Run the script:
+   ```bash
+   python optimized_path_planner.py
    ```
-bash
-python optimized_path_planner.py
-```
 3. After running:
    - The code will optimize the path and display the result.
    - It will plot the inner and outer track boundaries, cones, and the optimized path.
