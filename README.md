@@ -16,7 +16,7 @@ This project presents an approach to optimize a smooth path within a race track 
   - `matplotlib`
   - `math`
   - `random`
-- `scipy`
+  - `scipy`
   - `deap`
 
 ## **Installation**
