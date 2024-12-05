@@ -1,6 +1,8 @@
-# BGRassignment
+# Assignment 2: Path Planning - Optimized Path Planning Using Evolutionary Algorithm
 
-# Optimized Path Planning Using Evolutionary Algorithm
+**Personal note:**
+I tried to solve the solution with the help of an evolutionary algorithm and its principles, but unfortunately I didn't have a lot of time to bring it to maximum optimization. 
+Hope you can see the vision and the general idea with the performance I have presented here
 
 ## **Overview**
 This project demonstrates an approach to optimize a smooth path within a race track layout using an **evolutionary algorithm**. The algorithm generates a path that minimizes curvature and length while adhering to the track boundaries defined by cone positions. The process involves:
