@@ -1,14 +1,11 @@
-# Assignment 2: Path Planning - Optimized Path Planning Using Evolutionary Algorithm
+Assignment 2: Path Planning - Optimized Path Planning Using Evolutionary Algorithm
 
 **Personal note:**
 I tried to solve the solution with the help of an evolutionary algorithm and its principles, but unfortunately I didn't have a lot of time to bring it to maximum optimization. 
 Hope you can see the vision and the general idea with the performance I have presented here
 
 ## **Overview**
-This project demonstrates an approach to optimize a smooth path within a race track layout using an **evolutionary algorithm**. The algorithm generates a path that minimizes curvature and length while adhering to the track boundaries defined by cone positions. The process involves:
-1. **Data Preprocessing**: Reading cone positions from a CSV file and defining track limits.
-2. **Spline Generation**: Creating smooth inner, outer, and middle track boundaries.
-3. **Evolutionary Optimization**: Using a genetic algorithm (via DEAP library) to optimize the path based on length, smoothness, and adherence to track limits.
+This project presents an approach to optimize a smooth path within a race track layout using an **evolutionary algorithm**. The algorithm outputs a path that minimizes curvature and length while staying inside of the track boundaries defined by the position of cones. The process involves
 
 ## **Requirements**
 - **Operating System**: Windows
@@ -19,24 +16,25 @@ This project demonstrates an approach to optimize a smooth path within a race tr
   - `matplotlib`
   - `math`
   - `random`
-  - `scipy`
+- `scipy`
   - `deap`
 
 ## **Installation**
 1. Clone or download the repository.
-2. Ensure Python is installed on your Windows system.
-3. Install the required Python libraries using the following command:
+2. Make sure Python is installed on your Windows system.
+3. Install the needed Python libraries with the following command:
    ```bash
    pip install pandas numpy matplotlib scipy deap
    ```
-4. Place the `BrandsHatchLayout.csv` file in the same directory as the script.
+4. Put the `BrandsHatchLayout.csv` file in the same directory as the script.
 
 ## **Usage**
 1. Open a terminal or command prompt in the script's directory.
 2. Run the script:
-   ```bash
-   python optimized_path_planner.py
    ```
-3. Upon execution:
-   - The program will generate and visualize the optimized path.
-   - A plot will be displayed showing the inner and outer track boundaries, cones, and the optimized path.
+bash
+python optimized_path_planner.py
+```
+3. After running:
+   - The code will optimize the path and display the result.
+   - It will plot the inner and outer track boundaries, cones, and the optimized path.
