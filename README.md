@@ -1,4 +1,4 @@
-Assignment 2: Path Planning - Optimized Path Planning Using Evolutionary Algorithm
+# Assignment 2: Path Planning - Optimized Path Planning Using Evolutionary Algorithm
 
 **Personal note:**
 I tried to solve the solution with the help of an evolutionary algorithm and its principles, but unfortunately I didn't have a lot of time to bring it to maximum optimization. 
